@@ -28,3 +28,21 @@
     cursor: pointer;
   }
 }
+
+.Button {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  padding: .9rem 2rem;
+  border: 0;
+  background: rgb(221, 221, 221);
+  border-radius: .6rem;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+
+.Declarer {
+  color: white;
+  font-size: xx-large;
+}
